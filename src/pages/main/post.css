@@ -1,0 +1,73 @@
+/* post.css */
+
+.posts {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f5f5f5; /* Light gray background color */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    text-align: center;
+  }
+  
+  .headtitle {
+    font-size: 24px;
+    margin: 0;
+    color: #333; /* Dark text color */
+  }
+  
+  .bc {
+    margin-top: 10px;
+  }
+  
+  .d1 {
+    font-size: 16px;
+    margin: 0;
+    color: #555; /* Slightly darker text color */
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .un {
+    font-size: 14px;
+    margin: 0;
+    color: #777; /* Lighter text color */
+  }
+  
+  .like {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .like:hover {
+    background-color: #45a049;
+  }
+  
+  .like.liked {
+    background-color: #45a049;
+  }
+  
+  .like-icon {
+    margin-right: 5px;
+  }
+  
+  .like-count {
+    margin-left: 10px;
+    font-size: 14px;
+    color: #555;
+  }
+  
